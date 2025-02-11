@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- -------------MontSerrat Font link-------------- -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+ 
+    <script src="https://kit.fontawesome.com/ad9a5c0db4.js" crossorigin="anonymous"></script>
+</head>
+<body class="project-page">
+    <div class="project-details">
+        <a href="index.html" class="back-arrow">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+        <img src="images/mockup02.jpg" alt="eCommerce Sales Platform" class="project-image">
+        <p class="date-line">January 18, 2025</p>
+        <h3>British Airways Data Science Job Sumation</h3>
+        <h2>Overview</h2>
+        <p>This project consists of two main tasks that focus on understanding customer feedback and predicting customer behavior. The first task involves scraping and analyzing reviews from a popular airline review website, while the second task focuses on predicting customer booking behavior using machine learning. These tasks help in gaining insights into customer experiences and understanding the factors influencing their decisions. The overall goal is to improve the airline’s services and marketing strategies by leveraging data analytics and machine learning.</p>
+
+
+        <h2>Project Objectives</h2>
+        <h4>Task 1: Analyze Customer Reviews</h4>
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>Scrape and clean review data from Skytrax (British Airways) website.</li>
+            <li>Analyze customer sentiments using techniques like topic modeling, sentiment analysis, and word clouds.</li>
+            <li>Present insights in a PowerPoint presentation for effective board meeting communication.</li>
+        </ul>   
+
+        <h4>Task 2: Predict Customer Booking Behavior</h4>
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>Preprocess and prepare the dataset for predictive modeling.</li>
+            <li>Train a RandomForestClassifier to predict customer booking behavior.</li>
+            <li>Evaluate the model using cross-validation and interpret feature importance for better model understanding.</li>
+            <li>Visualize how each feature contributes to the prediction outcome and summarize findings in a PowerPoint slide.</li>
+          </ul>
+
+
+          <h2>Task 01</h2>
+          <p>The primary goal was not to build a predictive model but to perform exploratory data analysis (EDA) on customer reviews to uncover valuable insights. The process began by scraping customer reviews from the Skytrax website and cleaning the text data. Although no traditional machine learning model was used, techniques such as Sentiment Analysis and Topic Modeling were employed to analyze the textual data. Sentiment analysis categorized reviews into positive, neutral, or negative sentiments, allowing the team to gauge overall customer satisfaction. Topic modeling was performed using methods like Latent Dirichlet Allocation (LDA), which identified key themes such as service quality, seat comfort, and punctuality.</p>
+          
+          <h2>Task 02</h2>
+          <p>The goal was to build a predictive model to forecast whether a customer would complete a booking based on various features. The dataset was first preprocessed, with categorical features like sales channel, trip type, and flight day being encoded using Label Encoding. The Random Forest Classifier was chosen as the model due to its ability to handle complex datasets and its feature importance capabilities. The model was trained on the prepared dataset, with booking_complete as the target variable. Evaluation metrics such as accuracy, confusion matrix, classification report, and AUC-ROC score were used to assess model performance.</p>
+
+
+        <h2>Data Analysis and Key Insights</h2> 
+        <h4>Data Collection and Cleaning:</h4>      
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>The data collection was performed by scraping customer reviews from the Skytrax website, specifically focusing on British Airways. Multiple pages were scraped to gather a comprehensive dataset containing review titles, body content, ratings, reviewer names, dates, and specific category ratings (e.g., seat comfort, cabin staff service, value for money).</li>
+            <li>After collecting the data, extensive cleaning was necessary. This included handling missing values, removing irrelevant content (e.g., separating review text from metadata), and standardizing the column names for consistency. Additionally, review bodies were cleaned to remove unwanted characters, ensuring the text data was ready for analysis.</li>
+        </ul>
+        <h4>Sentiment Analysis:</h4>
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>Sentiment analysis revealed that the overall customer sentiment toward British Airways had a mixed tone. Many reviews highlighted positive experiences related to the professionalism of the cabin crew and flight comfort, while negative feedback often mentioned issues with delays, customer service, and the overall value for money.</li>
+            <li>Positive reviews primarily focused on customer satisfaction with specific staff interactions, while negative reviews frequently pointed out issues with the seating, inflight entertainment, and customer service responsiveness.</li>
+        </ul>
+        <h4>Topic Modeling:</h4>
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>Service Quality: Reviews frequently mentioned the helpfulness and politeness of the cabin crew, indicating a high level of satisfaction with customer service in-flight.</li>
+            <li>Seat Comfort: Many negative reviews highlighted discomfort in the seating arrangement, which emerged as a critical point for customer dissatisfaction.</li>
+            <li>Punctuality and Delays: A significant portion of reviews expressed frustration over delays, with many passengers noting that they had experienced significant wait times at airports, impacting their overall flight experience.</li>
+        </ul>
+        <h4>Actionable Insights:</h4>
+        <ul style="list-style-type: disc; margin-left: 30px;">
+            <li>British Airways should consider investing in upgrading economy class seating to address the discomfort reported by many passengers.</li>
+            <li>Improving communication and responsiveness in case of delays could enhance the overall customer experience.</li>
+            <li>The positive sentiment toward cabin staff indicates that training programs for staff are effective; however, continuing to maintain high levels of service is crucial for retaining customer loyalty.</li>
+        </ul>
+        
+
+        <h2>Conclusion</h2>
+        <p>Provided valuable insights into customer satisfaction with British Airways through sentiment analysis and feature extraction, identifying key areas for improvement. By utilizing visualizations and key metrics, these findings were effectively communicated for a board meeting. On the other hand, successfully built a predictive model using Random Forest to forecast customer booking behavior, showcasing the potential of machine learning to drive data-driven decisions. The model's evaluation metrics and feature importance visualizations further highlighted the key factors influencing booking decisions, offering actionable insights for business strategy.</p>
+        <h2>GitHub Repository Link</h2>
+
+        <div class="github-btn">
+            <a href="https://github.com/rutiknarute/Ecommerce_Sales_Analysis" target="_blank" class="btn">Source Code</a>   
+        </div>
+    </div>
+</body>
+</html>

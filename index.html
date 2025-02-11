@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore my portfolio displaying Data Science, Data Analysis, and Data Visualization. See my latest projects, skills, and experience in modeling, visualization, and business analytics.">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/ad9a5c0db4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container" id="block">
+            <nav>
+                 <h1><span>R</span>utik.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist / Analyst</p>
+                <h1>Hi, I'm <span>Rutik</span>  Narute<br>from United States</h1>
+                <a href="https://drive.google.com/file/d/1UmY1B8PbLuzCoU9J6PwhX7foWOuAV_nI/view?usp=sharing" target="_blank" class="resume-btn">Resume</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="Rutik Narute Personal Logo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a data enthusiast who loves working with numbers and finding meaningful insights from raw data. I have experience in data analysis, machine learning, and building predictive models to solve real-world problems. My goal is to turn data into clear, useful information that helps businesses make better decisions.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('internships')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Data Science</span><br>Python, Statistics, SQL, Machine Learning, NLP, Big Data, Cloud Computing</li>
+                                <li><span>Data Analysis</span><br>Python, Tableau, Power-BI, Excel, SQL, Data-Visualization, Data-Modeling, Data-Mining, Reporting, Dashboard-Creation, Data-Cleaning, Data-Wrangling, Storytelling</li>
+                                <li><span>Data Engineer</span><br>Informatica Powercentre, Informatica IICS, SQL, ETL, Azure Data Factory, Data-Pipelines, Data-Warehousing, Data-Lakes, Snowflake</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="internships">
+                            <ul>
+                                <li><span>Cognizant Technology Solutions</span><br>Intern</li>
+                                <li><span>British Airways Data Science</span><br>Virtual Intern</li>
+                                <li><span>Microcare Computers</span><br>Full Stack Intern</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Sentiment Analysis Model for Reviews: Twitter Data on US Airlines</span><br>Analysing data insights</li>
+                                <li><span>eCommerce Sales Analysis Dashboard</span><br>AI/ML Model Implementation</li>
+                                <li><span>Facial Expression Recognition for Student Engagement in Online learning</span><br>ETL Pipelines on data</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>California State University Los Angeles</span><br>Master’s of Science in Computer Science</li>
+                                <li><span>Vidya Pratishthan's Kamalnayan Bajaj Institute of Engineering & Technology</span><br>Honor Minor Program - (Artificial Intelligence and Data Science)</li>
+                                <li><span>Vidya Pratishthan's Kamalnayan Bajaj Institute of Engineering & Technology</span><br>Bachelor of Engineering in Information Technology</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Science</h2>
+                    <p>I build and train models to predict trends and solve complex problems using data. With tools like Python, SQL, and machine learning libraries, I analyze data to find patterns and create solutions. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>I help clean, analyze, and visualize data to find useful patterns and insights. 
+                        Using tools like Python, SQL, Tableau, and Power BI, I create easy-to-understand 
+                        dashboards and reports. My goal is to help businesses make better decisions by 
+                        turning data into clear and actionable information.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <h2>Data Visualization</h2>
+                    <p>I help businesses make sense of their data by analyzing trends, patterns, and key insights. I create clear visual reports and dashboards to help in decision-making. I also clean and organize messy data to make it more useful and accurate.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+     
+     <div id="portfolio" >
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mock.jpg" alt="eCommerce Sales Platform Dashboard">
+                    <div class="layer">
+                        <h3>eCommerce Sales Platform</h3>
+                            <a href="project-details.html">Explore More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mock02.jpg" alt="British Airways Data Science Analysis">
+                    <div class="layer">
+                        <h3>British Airways Job Simulation</h3>
+                            <a href="project-details02.html">Explore More</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mock03.jpg" alt="Sentiment Analysis of US Airlines">
+                    <div class="layer">
+                        <h3>US Airline Data Analysis</h3>
+                            <a href="project-details03.html">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
+
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills & Tools</h1>
+            <div class="skills-box">
+                <div class="skill">
+                    <img src="images/Powerbi.png" alt="Power BI">
+                    <span>Power BI</span>
+                </div>
+                <div class="skill">
+                    <img src="images/python.png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <img src="images/tableau.png" alt="Tableau">
+                    <span>Tableau</span>
+                </div>
+                <div class="skill">
+                    <img src="images/excel.png" alt="Excel">
+                    <span>Excel</span>
+                </div>
+                <div class="skill">
+                    <img src="images/ma.png" alt="Power BI">
+                    <span>Machine Learning</span>
+                </div>
+                <div class="skill">
+                    <img src="images/sql.png" alt="Python">
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <img src="images/stat.png" alt="Tableau">
+                    <span>Statistics</span>
+                </div>
+                <div class="skill">
+                    <img src="images/visualization (1).png" alt="Excel">
+                    <span>Visualization</span>
+                </div>
+                <div class="skill">
+                    <img src="images/etl.png" alt="Power BI">
+                    <span>ETL</span>
+                </div>
+                <div class="skill">
+                    <img src="images/INFA.png" alt="Python">
+                    <span>IICS</span>
+                </div>
+                <div class="skill">
+                    <img src="images/NLP.png" alt="Tableau">
+                    <span>NLP</span>
+                </div>
+                <div class="skill">
+                    <img src="images/adf.png" alt="Excel">
+                    <span>Azure Data factory</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Let's Start a Conversation</h1>
+            <div class="row-contact">
+                <div class="contact">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="resume_btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-section follow-me">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rutik-narute-8256a1221/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/rutiknarute" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.behance.net/hrutiknarute" aria-label="Behance">
+                        <i class="fa-brands fa-square-behance"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="footer-section services">
+                <h3>Services</h3>
+                <ul>
+                    <li><i class="fa-solid fa-chart-line"></i> Data Science</li>
+                    <li><i class="fa-solid fa-chart-pie"></i> Data Analytics</li>
+                    <li><i class="fa-solid fa-chart-bar"></i> Data Visualization</li>
+                    <li><i class="fa-solid fa-database"></i> Data Engineering</li>
+                    <li><i class="fa-solid fa-business-time"></i> Business Analytics</li>
+                </ul>
+            </div>
+    
+            <div class="footer-section contact-me">
+                <h3>Contact Me</h3>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:rnarute@calstatela.edu">rnarute@calstatela.edu</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+16264931810">+1 (626) 493 1810</a></p>
+                <p><i class="fa-solid fa-location-dot"></i> Monterey Park, CA, USA</p>
+            </div>
+            
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 All Rights Reserved | Designed by Rutik N</p>
+        </div>
+    </footer>
+    
+    
+
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+
+        var sidemeu =document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxH2JVybcgNif7HCdEbH4uUAyPcLYBbEohukIe2jE461YnPmPU0upYnUKPvoP4x33HH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg") 
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
